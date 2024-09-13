@@ -19,7 +19,7 @@ def main():
 
     # Load an image using OpenCV
     # Replace './input/faces.png' with the path to your image file
-    image_path = './input/faces.png'
+    image_path = './input/party-image.png'
     image = cv2.imread(image_path)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
